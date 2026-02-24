@@ -1,5 +1,6 @@
 
 .main{
+    
     border: 0px solid black;
     display: flex;
     gap: 3px;
@@ -69,3 +70,8 @@
     background-image: url("https://rukminim2.flixcart.com/www/530/740/promos/26/09/2023/6c3c5fe2-c236-4fa2-8d97-595e1e01da01.jpg?q=80");
 }
 
+@media(max-width:1000px){
+    .main{
+        flex-direction: column;
+    }
+}
